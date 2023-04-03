@@ -35,14 +35,14 @@ struct = {
     'feature_extractor_model_ckpt': [
         'preprocessor_config.json'
     ],
-    'safety_checker_model_ckpt': [
+    'safety_checker': [
         'config.json',
         'pytorch_model.bin'
     ],
-    'scheduler_model_ckpt': [
+    'scheduler': [
         'scheduler_config.json'
     ],
-    'text_encoder_model_ckpt': [
+    'text_encoder': [
         'config.json',
         'pytorch_model.bin'
     ],
@@ -52,11 +52,11 @@ struct = {
         'special_tokens_map.json',
         'merges.txt'
     ],
-    'unet_model_ckpt': [
+    'unet': [
         'config.json',
         'diffusion_pytorch_model.bin'
     ],
-    'vae_model_ckpt': [
+    'vae': [
         'config.json',
         'diffusion_pytorch_model.bin'
     ]
